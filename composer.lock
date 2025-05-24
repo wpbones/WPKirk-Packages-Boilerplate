@@ -66,6 +66,70 @@
             "time": "2025-02-22T00:12:47+00:00"
         },
         {
+            "name": "mobiledetect/mobiledetectlib",
+            "version": "3.74.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/serbanghita/Mobile-Detect.git",
+                "reference": "39582ab62f86b40e4edb698159f895929a29c346"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/serbanghita/Mobile-Detect/zipball/39582ab62f86b40e4edb698159f895929a29c346",
+                "reference": "39582ab62f86b40e4edb698159f895929a29c346",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.14",
+                "phpunit/phpunit": "^9.6",
+                "squizlabs/php_codesniffer": "^3.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Detection\\": "src/"
+                },
+                "classmap": [
+                    "src/MobileDetect.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Serban Ghita",
+                    "email": "serbanghita@gmail.com",
+                    "homepage": "https://mobiledetect.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mobile_Detect is a lightweight PHP class for detecting mobile devices. It uses the User-Agent string combined with specific HTTP headers to detect the mobile environment.",
+            "homepage": "https://github.com/serbanghita/Mobile-Detect",
+            "keywords": [
+                "detect mobile devices",
+                "mobile",
+                "mobile detect",
+                "mobile detector",
+                "php mobile detect"
+            ],
+            "support": {
+                "issues": "https://github.com/serbanghita/Mobile-Detect/issues",
+                "source": "https://github.com/serbanghita/Mobile-Detect/tree/3.74.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/serbanghita",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-10-27T16:28:04+00:00"
+        },
+        {
             "name": "symfony/deprecation-contracts",
             "version": "v2.5.4",
             "source": {
@@ -489,12 +553,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/pure-css-switch.git",
-                "reference": "09e5817ad690f709b8717295cc41b50d61d9357b"
+                "reference": "14c9b060b3cc8bc1d3ac86a3d73d2f42f94afd83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/pure-css-switch/zipball/09e5817ad690f709b8717295cc41b50d61d9357b",
-                "reference": "09e5817ad690f709b8717295cc41b50d61d9357b",
+                "url": "https://api.github.com/repos/wpbones/pure-css-switch/zipball/14c9b060b3cc8bc1d3ac86a3d73d2f42f94afd83",
+                "reference": "14c9b060b3cc8bc1d3ac86a3d73d2f42f94afd83",
                 "shasum": ""
             },
             "default-branch": true,
@@ -527,7 +591,7 @@
                 "issues": "https://github.com/wpbones/pure-css-switch/issues",
                 "source": "https://github.com/wpbones/pure-css-switch/tree/main"
             },
-            "time": "2024-10-24T16:35:56+00:00"
+            "time": "2025-05-21T14:45:55+00:00"
         },
         {
             "name": "wpbones/pure-css-tabs",
@@ -535,12 +599,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/pure-css-tabs.git",
-                "reference": "c6a86d17a2d32ea230d20a26d86947082930844d"
+                "reference": "c89e1f07fce42cd3590eb85a072d2f1424a060e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/pure-css-tabs/zipball/c6a86d17a2d32ea230d20a26d86947082930844d",
-                "reference": "c6a86d17a2d32ea230d20a26d86947082930844d",
+                "url": "https://api.github.com/repos/wpbones/pure-css-tabs/zipball/c89e1f07fce42cd3590eb85a072d2f1424a060e3",
+                "reference": "c89e1f07fce42cd3590eb85a072d2f1424a060e3",
                 "shasum": ""
             },
             "default-branch": true,
@@ -571,9 +635,9 @@
             "support": {
                 "email": "wpbones.info@gmail.com",
                 "issues": "https://github.com/wpbones/pure-css-tabs/issues",
-                "source": "https://github.com/wpbones/pure-css-tabs/tree/main"
+                "source": "https://github.com/wpbones/pure-css-tabs/tree/1.1.0"
             },
-            "time": "2024-10-24T16:45:38+00:00"
+            "time": "2025-05-20T15:29:02+00:00"
         },
         {
             "name": "wpbones/useragent",
@@ -581,13 +645,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/useragent.git",
-                "reference": "9c58e6b09c404f6111501f5c429a6e79e5cbd717"
+                "reference": "f4455cd5abbed7ed570fb78edcf2003b5cfec5c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/useragent/zipball/9c58e6b09c404f6111501f5c429a6e79e5cbd717",
-                "reference": "9c58e6b09c404f6111501f5c429a6e79e5cbd717",
+                "url": "https://api.github.com/repos/wpbones/useragent/zipball/f4455cd5abbed7ed570fb78edcf2003b5cfec5c1",
+                "reference": "f4455cd5abbed7ed570fb78edcf2003b5cfec5c1",
                 "shasum": ""
+            },
+            "require": {
+                "mobiledetect/mobiledetectlib": "^3.74"
             },
             "default-branch": true,
             "type": "library",
@@ -621,7 +688,7 @@
                 "issues": "https://github.com/wpbones/useragent/issues",
                 "source": "https://github.com/wpbones/useragent/tree/main"
             },
-            "time": "2024-10-24T16:42:00+00:00"
+            "time": "2025-05-21T15:56:39+00:00"
         },
         {
             "name": "wpbones/wpbones",

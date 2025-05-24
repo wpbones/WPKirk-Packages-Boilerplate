@@ -77,7 +77,7 @@
 
   </div>
 
-  <?php wpkirk_toc('Pure CSS Tab') ?>
+  <?php wpkirk_toc('Pure CSS Switch') ?>
 
 
 </div>

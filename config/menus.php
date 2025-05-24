@@ -45,6 +45,23 @@ return [
           'get' => 'Packages\PureCSSSwitchController@index'
         ],
       ],
+      [
+        "page_title" => "User Agent",
+        "menu_title" => "User Agent",
+        'capability' => 'read',
+        'route' => [
+          'get' => 'Packages\UserAgentController@index'
+        ],
+      ],
+      [
+        "page_title" => "WP Table",
+        "menu_title" => "WP Table",
+        'capability' => 'read',
+        'route' => [
+          'load' => 'Packages\WPTableController@load',
+          'get' => 'Packages\WPTableController@index'
+        ],
+      ],
     ]
   ]
 ];

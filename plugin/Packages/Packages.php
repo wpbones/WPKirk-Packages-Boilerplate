@@ -56,7 +56,7 @@ class Packages
       'wpbones/useragent' => [
         'title' => 'UserAgent',
         'url' => 'https://github.com/wpbones/useragent',
-        'tag' => '',
+        'tag' => '1.1',
       ],
       'wpbones/wptables' => [
         'title' => 'WPTables',
