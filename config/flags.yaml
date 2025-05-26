@@ -1,0 +1,10 @@
+# The version of the file is 1.0.0
+version: "1.0.0"
+example:
+  # Enable or disable the Example feature
+  enabled: true
+  # Throttle request time in minutes
+  # By setting this value to 0, the feature will be disabled
+  throttle: 5
+  # Request timeout
+  timeout: 0

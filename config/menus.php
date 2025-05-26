@@ -38,6 +38,14 @@ return [
         ],
       ],
       [
+        "page_title" => "Flags",
+        "menu_title" => "Flags",
+        'capability' => 'read',
+        'route' => [
+          'get' => 'Packages\FlagsController@index'
+        ],
+      ],
+      [
         "page_title" => "Morris PHP",
         "menu_title" => "Morris PHP",
         'capability' => 'read',

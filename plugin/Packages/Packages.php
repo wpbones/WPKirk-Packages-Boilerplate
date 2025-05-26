@@ -31,7 +31,7 @@ class Packages
       'wpbones/flags' => [
         'title' => 'Flags',
         'url' => 'https://github.com/wpbones/flags',
-        'tag' => '',
+        'tag' => '1.1',
       ],
       'wpbones/geolocalizer' => [
         'title' => 'Geolocalizer',
