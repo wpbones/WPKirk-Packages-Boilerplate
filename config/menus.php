@@ -46,6 +46,15 @@ return [
         ],
       ],
       [
+        "page_title" => "Geolocalizer",
+        "menu_title" => "Geolocalizer",
+        'capability' => 'read',
+        'route' => [
+          'get' => 'Packages\GeolocalizerController@index',
+          'post' => 'Packages\GeolocalizerController@save'
+        ],
+      ],
+      [
         "page_title" => "Morris PHP",
         "menu_title" => "Morris PHP",
         'capability' => 'read',

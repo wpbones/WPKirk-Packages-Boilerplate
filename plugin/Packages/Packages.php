@@ -36,7 +36,7 @@ class Packages
       'wpbones/geolocalizer' => [
         'title' => 'Geolocalizer',
         'url' => 'https://github.com/wpbones/geolocalizer',
-        'tag' => '',
+        'tag' => '1.1',
       ],
       'wpbones/morris-php' => [
         'title' => 'Morris PHP',

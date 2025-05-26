@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('ABSPATH')) {
-    exit();
+  exit();
 }
 
 /*
@@ -16,4 +16,8 @@ if (!defined('ABSPATH')) {
 |
 */
 
-return [];
+return [
+  'ip_stack' => [
+    'key' => '',
+  ],
+];
