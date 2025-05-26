@@ -26,7 +26,7 @@ class Packages
       'wpbones/actions-and-filters-js' => [
         'title' => 'Actions and Filters JS',
         'url' => 'https://github.com/wpbones/actions-and-filters-js',
-        'tag' => '',
+        'tag' => '1.1',
       ],
       'wpbones/flags' => [
         'title' => 'Flags',
@@ -41,7 +41,7 @@ class Packages
       'wpbones/morris-php' => [
         'title' => 'Morris PHP',
         'url' => 'https://github.com/wpbones/morris-php',
-        'tag' => '',
+        'tag' => '1.1',
       ],
       'wpbones/pure-css-switch' => [
         'title' => 'Pure CSS Switch',

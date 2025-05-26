@@ -62,6 +62,14 @@ return [
           'get' => 'Packages\WPTableController@index'
         ],
       ],
+      [
+        "page_title" => "Morris PHP",
+        "menu_title" => "Morris PHP",
+        'capability' => 'read',
+        'route' => [
+          'get' => 'Packages\MorrisPHPController@index'
+        ],
+      ],
     ]
   ]
 ];
