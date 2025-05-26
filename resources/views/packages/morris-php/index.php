@@ -57,7 +57,7 @@ $evalJson = array_merge($eval, ['language-eval' => 'json']); ?>
 
   </div>
 
-  <?php wpkirk_toc('User Agent') ?>
+  <?php wpkirk_toc('Morris PHP') ?>
 
 
 </div>
