@@ -79,7 +79,11 @@ return [
   |
   */
 
-  'screen_options' => ['disco_per_page'],
+  'screen_options' => [
+    'disco_per_page',
+    'cakes_per_page',
+    'books_per_page'
+  ],
 
   /*
   |--------------------------------------------------------------------------

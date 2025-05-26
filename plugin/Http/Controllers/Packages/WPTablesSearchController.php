@@ -3,22 +3,21 @@
 namespace WPKirk\Http\Controllers\Packages;
 
 use WPKirk\Http\Controllers\Controller;
-use WPKirk\Support\WPTable\DiscoTable;
+use WPKirk\Support\WPTable\SearchTable;
 
-
-class WPTableController extends Controller
+class WPTablesSearchController extends Controller
 {
   public function load()
   {
-    DiscoTable::registerScreenOption();
+    SearchTable::registerScreenOption();
   }
 
   public function index()
   {
-    $table = new DiscoTable();
+    $table = new SearchTable();
 
     return WPKirk()
-      ->view('packages.wptable.index')
+      ->view('packages.wptable.search')
       ->with('table', $table)
       ->withAdminStyle('prism')
       ->withAdminScript('prism')

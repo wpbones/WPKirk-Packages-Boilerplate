@@ -7,9 +7,9 @@ use WPKirk\WPTables\Html\WPTable;
 class DiscoTable extends WPTable
 {
   protected $title = 'List of Discos';
-  protected $name = "disco";
-  protected $plural = "discos";
-  protected $singular = "disco";
+  protected $name = "disco"; // used for `per_page`
+  protected $plural = "Discos";
+  protected $singular = "Disco";
 
   /**
    * Description

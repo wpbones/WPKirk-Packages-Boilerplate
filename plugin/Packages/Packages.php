@@ -61,7 +61,7 @@ class Packages
       'wpbones/wptables' => [
         'title' => 'WPTables',
         'url' => 'https://github.com/wpbones/wptables',
-        'tag' => '',
+        'tag' => '1.1',
       ],
     ];
   }

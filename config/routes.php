@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('ABSPATH')) {
-    exit();
+  exit();
 }
 
 /*
@@ -14,4 +14,21 @@ if (!defined('ABSPATH')) {
 |
 */
 
-return [];
+return [
+  'wp_tables_search' => [
+    'title'      => __('WP Rables Search Example', 'wp-kirk'),
+    'capability' => 'read',
+    'route'      => [
+      'load' => 'Packages\WPTablesSearchController@load',
+      'get' => 'Packages\WPTablesSearchController@index'
+    ]
+  ],
+  'wp_tables_fluent' => [
+    'title'      => __('WP Tables Fluent Example', 'wp-kirk'),
+    'capability' => 'read',
+    'route'      => [
+      'load' => 'Packages\WPTablesFluentController@load',
+      'get' => 'Packages\WPTablesFluentController@index'
+    ]
+  ]
+];
