@@ -19,6 +19,14 @@ $evalJson = array_merge($eval, ['language-eval' => 'json']); ?>
 
 <div class='wp-kirk wrap wp-kirk-sample'>
 
+  <?php if (isset($feedback)): ?>
+    <div id="message" class="updated notice is-dismissible">
+      <p>
+        <?php echo $feedback; ?>
+      </p>
+    </div>
+  <?php endif; ?>
+
   <div class="wp-kirk-toc-content">
     <?php wpkirk_section(__('Overview', 'wp-kirk')); ?>
 
@@ -29,19 +37,33 @@ $evalJson = array_merge($eval, ['language-eval' => 'json']); ?>
     <?php $package->gitHubRepository() ?>
     <?php $package->installation() ?>
 
-    <?php if (isset($feedback)): ?>
-      <div id="message" class="updated notice is-dismissible">
-        <p>
-          <?php echo $feedback; ?>
-        </p>
-      </div>
+    <?php wpkirk_section(__('Database', 'wp-kirk')); ?>
+
+    <p>
+      <?php wpkirk_md(__('In the package `database` folder you will find the migration and seed files to create the `countries` table into the base. Remember to copy them into your `database` plugin folder. After that, deactivate the plugin and activate it again.', 'wp-kirk')); ?>
+    </p>
+
+    <?php $countries = wpbones_geo()->countries(); ?>
+
+    <?php if (empty($countries)): ?>
+      <p class="notice-error notice">
+        <span style="padding: 10px;display: block">
+          <?php wpkirk_md(__('⚠️ Copy the migration and seed files into your project.', 'wp-kirk')); ?>
+        </span>
+      </p>
+    <?php else : ?>
+      <p class="notice-success notice">
+        <span style="padding: 10px;display: block">
+          <?php wpkirk_md(__('✅ Database countries table installed.', 'wp-kirk')); ?>
+        </span>
+      </p>
     <?php endif; ?>
 
     <?php if (empty($ip_stack_key)) : ?>
-      <h3>Note Well!</h3>
-      <p class="notice notice-warning">
+      <h3>IP Stack API Key missing!</h3>
+      <p class="notice notice-error">
         <span style="padding: 10px;display: block">
-          <?php wpkirk_md(__('To use this package, you need to set your ' . '<a href="https://ipstack.com/signup/free">IP Stack API key</a>' . ' in the WordPress settings.', 'wp-kirk')); ?>
+          <?php wpkirk_md(__('🛑 To use this package, you need to set your ' . '<a href="https://ipstack.com/signup/free">IP Stack API key</a>' . ' in the WordPress settings.', 'wp-kirk')); ?>
         </span>
       </p>
 
@@ -64,8 +86,8 @@ $evalJson = array_merge($eval, ['language-eval' => 'json']); ?>
 
     <?php if (empty($geo) || isset($geo['error'])): ?>
       <p class="notice notice-warning">
-        <span style="padding: 10px;display: block">⚠️
-          <?php wpkirk_md(__('No geolocation information available. Check your ' . '<a href="https://ipstack.com/signup/free">IP Stack API key</a>', 'wp-kirk')); ?>
+        <span style="padding: 10px;display: block">
+          <?php wpkirk_md(__('⚠️ No geolocation information available. Check your ' . '<a href="https://ipstack.com/signup/free">IP Stack API key</a>', 'wp-kirk')); ?>
         </span>
       </p>
 
@@ -84,7 +106,27 @@ $evalJson = array_merge($eval, ['language-eval' => 'json']); ?>
 });
       "); ?>
 
+      <p>
+        <?php wpkirk_md(__('Therefore, you can use the `wpbones_geo()` helper function to get the geolocation information.', 'wp-kirk')); ?>
+      </p>
+
       <?php wpkirk_code("echo wpbones_geo()->city;", $eval); ?>
+
+      <?php wpkirk_section(__('Class method', 'wp-kirk')); ?>
+
+      <?php wpkirk_code("\$geo = new\WPKirk\GeoLocalizer\GeoLocalizerProvider();
+echo \$geo->continent_name;", $eval); ?>
+
+
+      <?php wpkirk_section(__('Static method', 'wp-kirk')); ?>
+
+      <?php wpkirk_code("echo \WPKirk\GeoLocalizer\GeoLocalizerProvider::geoIp()['country_name'];", $eval); ?>
+
+      <?php wpkirk_section(__('Countries', 'wp-kirk')); ?>
+
+      <?php wpkirk_code("\$countries = wpbones_geo()->countries();
+echo json_encode(\$countries, JSON_PRETTY_PRINT);
+      ", ['eval' => true, 'details' => false]); ?>
 
 
     <?php endif; ?>

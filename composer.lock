@@ -456,17 +456,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/geolocalizer.git",
-                "reference": "4ca5b3b071a89e13b4061b305bdd2956ebe39ef3"
+                "reference": "9666f1c50f1094406f948e0d8f14f1c8837bca16"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/geolocalizer/zipball/4ca5b3b071a89e13b4061b305bdd2956ebe39ef3",
-                "reference": "4ca5b3b071a89e13b4061b305bdd2956ebe39ef3",
+                "url": "https://api.github.com/repos/wpbones/geolocalizer/zipball/9666f1c50f1094406f948e0d8f14f1c8837bca16",
+                "reference": "9666f1c50f1094406f948e0d8f14f1c8837bca16",
                 "shasum": ""
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
                 "psr-4": {
                     "WPKirk\\GeoLocalizer\\": "src/"
                 }
@@ -495,7 +498,7 @@
                 "issues": "https://github.com/wpbones/geolocalizer/issues",
                 "source": "https://github.com/wpbones/geolocalizer/tree/main"
             },
-            "time": "2024-10-24T16:47:56+00:00"
+            "time": "2025-05-26T16:34:09+00:00"
         },
         {
             "name": "wpbones/morris-php",
@@ -645,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/useragent.git",
-                "reference": "f4455cd5abbed7ed570fb78edcf2003b5cfec5c1"
+                "reference": "0dd0612ad56b30407b6bdc12ce2aab6f6bd6c7c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/useragent/zipball/f4455cd5abbed7ed570fb78edcf2003b5cfec5c1",
-                "reference": "f4455cd5abbed7ed570fb78edcf2003b5cfec5c1",
+                "url": "https://api.github.com/repos/wpbones/useragent/zipball/0dd0612ad56b30407b6bdc12ce2aab6f6bd6c7c3",
+                "reference": "0dd0612ad56b30407b6bdc12ce2aab6f6bd6c7c3",
                 "shasum": ""
             },
             "require": {
@@ -686,9 +689,9 @@
             "support": {
                 "email": "wpbones.info@gmail.com",
                 "issues": "https://github.com/wpbones/useragent/issues",
-                "source": "https://github.com/wpbones/useragent/tree/main"
+                "source": "https://github.com/wpbones/useragent/tree/1.1.1"
             },
-            "time": "2025-05-21T15:56:39+00:00"
+            "time": "2025-05-21T16:18:52+00:00"
         },
         {
             "name": "wpbones/wpbones",
@@ -806,12 +809,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/wptables.git",
-                "reference": "715aaa3d38e659a1406b6781fb11a3de2718c90a"
+                "reference": "2eb71c2bc3b17efdba51c7426a4b05e566a56bf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/wptables/zipball/715aaa3d38e659a1406b6781fb11a3de2718c90a",
-                "reference": "715aaa3d38e659a1406b6781fb11a3de2718c90a",
+                "url": "https://api.github.com/repos/wpbones/wptables/zipball/2eb71c2bc3b17efdba51c7426a4b05e566a56bf8",
+                "reference": "2eb71c2bc3b17efdba51c7426a4b05e566a56bf8",
                 "shasum": ""
             },
             "default-branch": true,
@@ -843,7 +846,7 @@
                 "issues": "https://github.com/wpbones/wptables/issues",
                 "source": "https://github.com/wpbones/wptables/tree/main"
             },
-            "time": "2024-10-24T16:40:08+00:00"
+            "time": "2025-05-26T09:22:45+00:00"
         }
     ],
     "packages-dev": [],
