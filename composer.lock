@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f2255331f37140a1b539f68bcf6dac2",
+    "content-hash": "afe62580da04e0a1a53781c9d22d4a8e",
     "packages": [
         {
             "name": "eftec/bladeone",
@@ -699,23 +699,22 @@
         },
         {
             "name": "wpbones/wpbones",
-            "version": "dev-master",
+            "version": "v1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/WPBones.git",
-                "reference": "116798c042ceb20293013358189adeaad670e202"
+                "reference": "0f20ae2e0e534765957ec2fa8b21567674179022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/116798c042ceb20293013358189adeaad670e202",
-                "reference": "116798c042ceb20293013358189adeaad670e202",
+                "url": "https://api.github.com/repos/wpbones/WPBones/zipball/0f20ae2e0e534765957ec2fa8b21567674179022",
+                "reference": "0f20ae2e0e534765957ec2fa8b21567674179022",
                 "shasum": ""
             },
             "require": {
                 "eftec/bladeone": "^4.13",
                 "php": ">=8.1"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -756,7 +755,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-11T09:28:29+00:00"
+            "time": "2026-04-18T13:55:18+00:00"
         },
         {
             "name": "wpbones/wpkirk-helpers",
@@ -864,7 +863,6 @@
         "wpbones/pure-css-switch": 20,
         "wpbones/pure-css-tabs": 20,
         "wpbones/useragent": 20,
-        "wpbones/wpbones": 20,
         "wpbones/wptables": 20
     },
     "prefer-stable": false,
