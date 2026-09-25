@@ -1,5 +1,5 @@
 # The version of the file is 1.0.0
-version: "1.0.0"
+version: '1.0.0'
 example:
   # Enable or disable the Example feature
   enabled: true
