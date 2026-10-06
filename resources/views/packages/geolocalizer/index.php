@@ -70,6 +70,7 @@ $evalJson = array_merge($eval, ['language-eval' => 'json']); ?>
     <?php endif; ?>
 
     <form action="" method="post">
+      <?php echo $plugin->csrfField(); ?>
       <?php wp_nonce_field('IP_STACK'); ?>
       <p style="display: flex;align-items: center;gap: 8px;">
         <label for="ip_stack/key">IP Stack Key</label>

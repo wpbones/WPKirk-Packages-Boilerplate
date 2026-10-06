@@ -65,6 +65,7 @@
 
     <form method="post">
       <?php
+      echo $plugin->csrfField();
       $table->prepare_items();
       $table->display(); ?>
     </form>

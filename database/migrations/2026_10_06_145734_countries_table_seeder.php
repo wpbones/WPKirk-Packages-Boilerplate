@@ -1,16 +1,20 @@
 <?php
 
-use WPKirk\WPBones\Database\Seeder;
+if (!defined('ABSPATH')) {
+  exit();
+}
 
-return new class extends Seeder {
+use WPKirk\WPBones\Database\Migration;
 
-  protected $tablename = 'countries';
-
-  public function run()
+/*
+ * Converted from database/seeders/countriesTableSeeder.php by php bones migrate:to-v3.
+ */
+return new class extends Migration {
+  public function up()
   {
-    $this->truncate();
+    $this->truncate('countries');
 
-    $this->insert(
+    $this->insert('countries',
       "(id, zone, country, isocode, currency, symbol, symbol_html, code, tax, continent, status)
       VALUES
       	(1,'','Mauritania','MR','Mauritanian Ouguiya','','','MRO',0.00,'africa','publish'),
