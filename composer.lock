@@ -468,12 +468,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/geolocalizer.git",
-                "reference": "4ba6c2369e1bc77664e42eafcb598a08aebda31f"
+                "reference": "2c9130cd8a910ef6c70da4197a5ffd6981e07fb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/geolocalizer/zipball/4ba6c2369e1bc77664e42eafcb598a08aebda31f",
-                "reference": "4ba6c2369e1bc77664e42eafcb598a08aebda31f",
+                "url": "https://api.github.com/repos/wpbones/geolocalizer/zipball/2c9130cd8a910ef6c70da4197a5ffd6981e07fb3",
+                "reference": "2c9130cd8a910ef6c70da4197a5ffd6981e07fb3",
                 "shasum": ""
             },
             "default-branch": true,
@@ -508,9 +508,9 @@
             "support": {
                 "email": "wpbones.info@gmail.com",
                 "issues": "https://github.com/wpbones/geolocalizer/issues",
-                "source": "https://github.com/wpbones/geolocalizer/tree/main"
+                "source": "https://github.com/wpbones/geolocalizer/tree/feat/v3-migrations"
             },
-            "time": "2025-05-27T05:48:27+00:00"
+            "time": "2026-10-07T07:44:37+00:00"
         },
         {
             "name": "wpbones/morris-php",
@@ -824,12 +824,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/wptables.git",
-                "reference": "2eb71c2bc3b17efdba51c7426a4b05e566a56bf8"
+                "reference": "6e0b4853f26e88cfe8e7b25b8655c2a04839c67c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/wptables/zipball/2eb71c2bc3b17efdba51c7426a4b05e566a56bf8",
-                "reference": "2eb71c2bc3b17efdba51c7426a4b05e566a56bf8",
+                "url": "https://api.github.com/repos/wpbones/wptables/zipball/6e0b4853f26e88cfe8e7b25b8655c2a04839c67c",
+                "reference": "6e0b4853f26e88cfe8e7b25b8655c2a04839c67c",
                 "shasum": ""
             },
             "default-branch": true,
@@ -859,9 +859,9 @@
             "support": {
                 "email": "wpbones.info@gmail.com",
                 "issues": "https://github.com/wpbones/wptables/issues",
-                "source": "https://github.com/wpbones/wptables/tree/main"
+                "source": "https://github.com/wpbones/wptables/tree/fix/bulk-action-nonce"
             },
-            "time": "2025-05-26T09:22:45+00:00"
+            "time": "2026-10-07T07:44:35+00:00"
         }
     ],
     "packages-dev": [],
