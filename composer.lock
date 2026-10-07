@@ -568,12 +568,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/pure-css-switch.git",
-                "reference": "14c9b060b3cc8bc1d3ac86a3d73d2f42f94afd83"
+                "reference": "cbc6a4919569bd58b53d4a6d9dde43907b447a00"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/pure-css-switch/zipball/14c9b060b3cc8bc1d3ac86a3d73d2f42f94afd83",
-                "reference": "14c9b060b3cc8bc1d3ac86a3d73d2f42f94afd83",
+                "url": "https://api.github.com/repos/wpbones/pure-css-switch/zipball/cbc6a4919569bd58b53d4a6d9dde43907b447a00",
+                "reference": "cbc6a4919569bd58b53d4a6d9dde43907b447a00",
                 "shasum": ""
             },
             "default-branch": true,
@@ -604,9 +604,9 @@
             "support": {
                 "email": "wpbones.info@gmail.com",
                 "issues": "https://github.com/wpbones/pure-css-switch/issues",
-                "source": "https://github.com/wpbones/pure-css-switch/tree/main"
+                "source": "https://github.com/wpbones/pure-css-switch/tree/docs/readme-use-switch"
             },
-            "time": "2025-05-21T14:45:55+00:00"
+            "time": "2026-10-07T09:51:10+00:00"
         },
         {
             "name": "wpbones/pure-css-tabs",
