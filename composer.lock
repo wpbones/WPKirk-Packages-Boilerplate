@@ -415,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wpbones/flags.git",
-                "reference": "8deb5947e7f8f0974637081525d0430418b50a31"
+                "reference": "5066d1dad85caa6c02969445a6abc1c95080ff73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wpbones/flags/zipball/8deb5947e7f8f0974637081525d0430418b50a31",
-                "reference": "8deb5947e7f8f0974637081525d0430418b50a31",
+                "url": "https://api.github.com/repos/wpbones/flags/zipball/5066d1dad85caa6c02969445a6abc1c95080ff73",
+                "reference": "5066d1dad85caa6c02969445a6abc1c95080ff73",
                 "shasum": ""
             },
             "require": {
@@ -458,9 +458,9 @@
             "support": {
                 "email": "wpbones.info@gmail.com",
                 "issues": "https://github.com/wpbones/flags/issues",
-                "source": "https://github.com/wpbones/flags/tree/main"
+                "source": "https://github.com/wpbones/flags/tree/fix/static-with-path"
             },
-            "time": "2025-05-26T14:53:36+00:00"
+            "time": "2026-10-07T09:41:39+00:00"
         },
         {
             "name": "wpbones/geolocalizer",
